@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+// your JavaScript goes here!
+var FirstNumber;
+var SecondNumber;
+var OpPrompt
+
+FirstNumber = prompt("Please enter a number");
+var FirstResponse = parseInt(FirstNumber);
+SecondNumber = prompt("Please enter another number");
+var SecondResponse = parseInt(SecondNumber);
+
+OpPrompt = prompt("Would you rather mult, div, or mod?");
+
+if (OpPrompt == "div" ) console.log (FirstResponse/SecondResponse);
+else if (OpPrompt == "mult" ) console.log(FirstResponse*SecondResponse);
+else if (OpPrompt == "mod" ) console.log(FirstResponse%SecondResponse);
+else console.log ("*** invalid operation ***");
+
+
+</script> 
+</body>
+</html>
